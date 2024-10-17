@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1216px;
+}
+
+header{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 1216px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+header ul li a{
+    color: black;
+}
+
+.fone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1216px;
+    justify-content: space-between;
+}
+
+.fone-texto {
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    gap: 25px;
+}
+
+.fone-texto h1{
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.fone-texto p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.fone-texto button {
+    width: 150px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-color: #2e68ff;
+    cursor: pointer;
+}
+
+.fone-texto h2 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #2e68ff;
+}
+
+.fone-texto p {
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    width: 1216px;
+    align-items: center;
+    padding-top: 168px;
+    padding-bottom: 200px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 26px;
+    width: 50vw;
+    text-align: center;
+}
+
+.titulo p {
+    color: #2e68ff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titulo h2 {
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.fones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1216px;
+    justify-content: space-between;
+}
+
+.fones div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.fones div p{
+    font-size: 12px;
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1216px;
+    background-color: #2e68ff;
+    padding: 96px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    height: 452px;
+    width: 568px;
+    justify-content: space-evenly;
+}
+
+.anuncio img {
+    width: 25px;
+}
+
+.anuncio h1 {
+    color: aliceblue;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.anuncio p {
+    color: aliceblue;
+    font-size: 14px;
+    width: 400px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1216px;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+footer div ul li a {
+    color: aliceblue;
+}
